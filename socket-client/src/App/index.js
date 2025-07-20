@@ -13,7 +13,7 @@ export default class App extends Component {
   constructor() {
     super();
 
-    this.endpoint = "http://127.0.0.1:4001" // default server address
+    this.endpoint = "https://tic-tac-toe-ekcx.vercel.app" // default server address
 
     // client's global React.js app state. These are the default values on load.
     this.state = {
